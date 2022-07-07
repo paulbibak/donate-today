@@ -30,17 +30,93 @@ h1 {
 }
 
 h3 {
-    font-weight: 100;
+    font-weight: 50;
 
 
 }
 
 .donation-button {
     text-decoration: none;
-    background-image: linear-gradient(orange, crimson);
+    background-image: linear-gradient(rgb(236, 38, 52), rgb(220, 20, 20));
     color: white;
     padding: 10px 25px;
     border-radius: 5px;
     font-weight: 700;
 
+}
+
+.donate-today {
+    text-align: center;
+}
+
+#size-correction {
+    font-size: 50px;
+}
+
+.light-color {
+    color: gray;
+}
+
+#five-subdiv {
+    display: flex;
+    margin-left: 30%;
+    margin-top: 40px;
+
+}
+
+#amount-tk1 {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(245, 244, 244);
+    padding: 10px 10px;
+    text-align: center;
+    margin: 10px 10px;
+    font-weight: 700;
+}
+
+#amount-tk3 {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(245, 244, 244);
+    padding: 10px 10px;
+    text-align: center;
+    margin: 10px 10px;
+    font-weight: 700;
+}
+
+#amount-tk4 {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(245, 244, 244);
+    padding: 10px 10px;
+    text-align: center;
+    margin: 10px 10px;
+    font-weight: 700;
+}
+
+#amount-tk5 {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(245, 244, 244);
+    padding: 10px 10px;
+    text-align: center;
+    margin: 10px 10px;
+    font-weight: 700;
+}
+
+#red-amount-tk {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(255, 215, 215);
+    border: 3px solid crimson;
+    padding: 10px 10px;
+    text-align: center;
+    margin: 10px 10px;
+    font-weight: 700;
+
+}
+
+hr {
+    align-self: center;
+    width: 50%;
 }
