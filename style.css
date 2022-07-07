@@ -10,16 +10,22 @@ body {
     background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(images/donation9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lets-help {
 
-    height: 1000px;
-    color: whitesmoke
+
+    color: whitesmoke;
+    text-align: center;
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 60px;
 
 }
 
