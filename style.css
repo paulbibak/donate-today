@@ -45,11 +45,16 @@ h3 {
 
 }
 
+.creat-margine {
+    margin-top: 10%;
+
+}
+
 .donate-today {
     text-align: center;
 }
 
-#size-correction {
+.size-correction {
     font-size: 50px;
 }
 
@@ -64,59 +69,75 @@ h3 {
 
 }
 
-#amount-tk1 {
+.tk-amounts {
     height: 50px;
     width: 100px;
-    background-color: rgb(245, 244, 244);
+
     padding: 10px 10px;
     text-align: center;
     margin: 10px 10px;
     font-weight: 700;
+
+}
+
+#amount-tk1 {
+
+    background-color: rgb(245, 244, 244);
+
 }
 
 #amount-tk3 {
-    height: 50px;
-    width: 100px;
     background-color: rgb(245, 244, 244);
-    padding: 10px 10px;
-    text-align: center;
-    margin: 10px 10px;
-    font-weight: 700;
 }
 
 #amount-tk4 {
-    height: 50px;
-    width: 100px;
     background-color: rgb(245, 244, 244);
-    padding: 10px 10px;
-    text-align: center;
-    margin: 10px 10px;
-    font-weight: 700;
 }
 
 #amount-tk5 {
-    height: 50px;
-    width: 100px;
     background-color: rgb(245, 244, 244);
-    padding: 10px 10px;
-    text-align: center;
-    margin: 10px 10px;
-    font-weight: 700;
 }
 
 #red-amount-tk {
-    height: 50px;
-    width: 100px;
     background-color: rgb(255, 215, 215);
     border: 3px solid crimson;
-    padding: 10px 10px;
-    text-align: center;
-    margin: 10px 10px;
-    font-weight: 700;
 
 }
 
 hr {
     align-self: center;
     width: 50%;
+}
+
+.incresing-fontweight {
+    font-weight: 700;
+}
+
+.creat-box {
+    height: 250px;
+    width: 400px;
+    border-radius: 5px;
+
+    padding: 50px 20px;
+    text-align: left;
+    margin: 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#shelter {
+    background-color: rgb(255, 237, 240);
+}
+
+#food {
+    background-color: rgb(221, 254, 243);
+}
+
+#education {
+    background-color: rgb(251, 235, 204);
+}
+
+#donation-plans {
+    display: flex;
+    margin: 3% 10%;
 }
