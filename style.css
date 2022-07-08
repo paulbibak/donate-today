@@ -140,6 +140,20 @@ hr {
     margin: 3% 10%;
 }
 
+.flixiable-container {
+    display: flex;
+}
+
+#contribute-button {
+    background-color: rgb(253, 69, 106);
+    text-decoration: none;
+    color: white;
+    padding: 8px 8px;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
 
 
 .box {
