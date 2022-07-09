@@ -112,7 +112,7 @@ hr {
 }
 
 .creat-box {
-    height: 250px;
+    height: 200px;
     width: 400px;
     border-radius: 5px;
 
@@ -142,10 +142,29 @@ hr {
 
 .flixiable-container {
     display: flex;
+    margin-left: 8%;
+    margin-right: 10%;
+}
+
+.half-width {
+    width: 100%;
+
+    padding-left: 2%;
+    margin-top: 10%;
+
+
+}
+
+.half-width img {
+    width: 100%;
+
+
+
+
 }
 
 #contribute-button {
-    background-color: rgb(253, 69, 106);
+    background-image: linear-gradient(rgb(236, 38, 52), rgb(220, 20, 20));
     text-decoration: none;
     color: white;
     padding: 8px 8px;
